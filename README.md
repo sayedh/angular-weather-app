@@ -27,7 +27,7 @@ cd cache-project
 ```
 npm install
 ```
-* Finally view the project locally, this open up a page in your browser
+* Finally view the project locally, this will open up a page in your browser
 ```
 ng serve -o
 ```
