@@ -6,6 +6,7 @@ In this project I used Angular13 to build a weather app where the user can searc
 * Angular
 * Node (npm)
 * Git
+* RapidAPI (Open Weather Map)
 
 
 ## Dependencies
@@ -19,16 +20,20 @@ npm install -g @angular/cli
 ## Executing program
 * Download the repository to your computer and go to project file
 ```
-git clone https://github.com/mobenh/cache-project
+git clone ttps://github.com/mobenh/cache-project
 cd cache-project
 ```
-* Edit line 7 for the size of the queue
-* Edit line 103 for the items in the queue
+* Add node modules to project files by runing comand
 ```
-const SIZE = 5
-for _, word := range []string{"parrot", "avocado", "dragonfruit", "tree", "potato", "tomato", "tree", "dog"} {
+npm install
 ```
-* Run code
+* Finally view the project locally, this open up a page in your browser
 ```
-go run main.go
+ng serve -o
 ```
+
+
+## Add your own Rapid API key
+* Since this project uses the Open Weather Map API, you can add you own key to the code. 
+* Log in/create account in RapidAPI and navigate to the Open Weather Map API and you will find your key in the X-RapidAPI-Key section. 
+* Once you have your key, insert it into the 
