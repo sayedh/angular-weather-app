@@ -36,4 +36,8 @@ ng serve -o
 ## Add your own Rapid API key
 * Since this project uses the Open Weather Map API, you can add you own key to the code. 
 * Log in/create account in RapidAPI and navigate to the Open Weather Map API and you will find your key in the X-RapidAPI-Key section. 
-* Once you have your key, insert it into the 
+* Once you have your key, insert it into the environment.ts file at Line 11:
+```
+  XRapidAPIKeyHeaderValue: 'YOUR_KEY_HERE'
+```
+
