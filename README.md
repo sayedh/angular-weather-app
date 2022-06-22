@@ -1,27 +1,34 @@
-# Weather
+# Angular Weather App
+In this project I used Angular13 to build a weather app where the user can search and display any city around the world. 
+![WeatherApp](https://user-images.githubusercontent.com/30685241/175099765-1a0d5444-7010-4829-bb2f-1d13d4d7444b.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.8.
+## Technologies Used
+* Angular
+* Node (npm)
+* Git
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Dependencies
+* Install Node - https://nodejs.org/en/download/
+* Install Git - https://git-scm.com/download/win
+* Install Angular - https://go.dev/doc/install
+```
+npm install -g @angular/cli
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Executing program
+* Download the repository to your computer and go to project file
+```
+git clone https://github.com/mobenh/cache-project
+cd cache-project
+```
+* Edit line 7 for the size of the queue
+* Edit line 103 for the items in the queue
+```
+const SIZE = 5
+for _, word := range []string{"parrot", "avocado", "dragonfruit", "tree", "potato", "tomato", "tree", "dog"} {
+```
+* Run code
+```
+go run main.go
+```
