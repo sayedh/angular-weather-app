@@ -12,9 +12,9 @@ In this project I used Angular13 to build a weather app where the user can searc
 ## Dependencies
 * Install Node - https://nodejs.org/en/download/
 * Install Git - https://git-scm.com/download/win
-* Install Angular - https://go.dev/doc/install
+* Install Angular13 - https://go.dev/doc/install
 ```
-npm install -g @angular/cli
+npm install -g @angular/cli@13
 ```
 
 ## Executing program
