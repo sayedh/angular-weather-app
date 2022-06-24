@@ -20,7 +20,7 @@ npm install -g @angular/cli@13
 ## Executing program
 * Download the repository to your computer and go to project file
 ```
-git clone ttps://github.com/sayedh/agular-weather-app
+git clone https://github.com/sayedh/agular-weather-app
 cd cache-project
 ```
 * Add node modules to project files by runing comand
